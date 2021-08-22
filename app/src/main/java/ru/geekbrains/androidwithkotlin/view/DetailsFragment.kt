@@ -2,17 +2,13 @@ package ru.geekbrains.androidwithkotlin.view
 
 import android.os.Build
 import android.os.Bundle
-import android.os.Handler
-import android.os.Looper
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.annotation.RequiresApi
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
-import com.google.gson.Gson
 import com.squareup.picasso.Picasso
-import okhttp3.*
 import ru.geekbrains.androidwithkotlin.BuildConfig
 import ru.geekbrains.androidwithkotlin.R
 import ru.geekbrains.androidwithkotlin.databinding.DetailsFragmentBinding
