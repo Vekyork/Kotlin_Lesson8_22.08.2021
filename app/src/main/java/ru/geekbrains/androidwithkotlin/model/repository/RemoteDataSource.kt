@@ -1,5 +1,6 @@
 package ru.geekbrains.androidwithkotlin.model.repository
 
+import androidx.viewbinding.BuildConfig
 import com.google.gson.GsonBuilder
 import retrofit2.Callback
 import retrofit2.Retrofit
