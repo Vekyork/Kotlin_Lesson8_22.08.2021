@@ -15,9 +15,7 @@ import ru.geekbrains.androidwithkotlin.databinding.DetailsFragmentBinding
 import ru.geekbrains.androidwithkotlin.model.AppState
 import ru.geekbrains.androidwithkotlin.model.data.City
 import ru.geekbrains.androidwithkotlin.model.data.Weather
-import ru.geekbrains.androidwithkotlin.model.dto.WeatherDTO
 import ru.geekbrains.androidwithkotlin.viewmodel.DetailsViewModel
-import java.io.IOException
 
 private const val TEMP_INVALID = -100
 private const val FEELS_LIKE_INVALID = -100
