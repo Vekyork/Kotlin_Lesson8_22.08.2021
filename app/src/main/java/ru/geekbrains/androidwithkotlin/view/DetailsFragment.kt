@@ -2,26 +2,20 @@ package ru.geekbrains.androidwithkotlin.view
 
 import android.os.Build
 import android.os.Bundle
-import android.os.Handler
-import android.os.Looper
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.annotation.RequiresApi
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
-import com.google.gson.Gson
 import com.squareup.picasso.Picasso
-import okhttp3.*
 import ru.geekbrains.androidwithkotlin.BuildConfig
 import ru.geekbrains.androidwithkotlin.R
 import ru.geekbrains.androidwithkotlin.databinding.DetailsFragmentBinding
 import ru.geekbrains.androidwithkotlin.model.AppState
 import ru.geekbrains.androidwithkotlin.model.data.City
 import ru.geekbrains.androidwithkotlin.model.data.Weather
-import ru.geekbrains.androidwithkotlin.model.dto.WeatherDTO
 import ru.geekbrains.androidwithkotlin.viewmodel.DetailsViewModel
-import java.io.IOException
 
 private const val TEMP_INVALID = -100
 private const val FEELS_LIKE_INVALID = -100

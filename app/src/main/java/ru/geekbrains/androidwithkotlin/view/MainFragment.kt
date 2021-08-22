@@ -9,13 +9,10 @@ import androidx.core.content.edit
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
-import com.google.android.material.snackbar.Snackbar
 import ru.geekbrains.androidwithkotlin.R
 import ru.geekbrains.androidwithkotlin.databinding.MainFragmentBinding
 import ru.geekbrains.androidwithkotlin.model.AppState
-import ru.geekbrains.androidwithkotlin.model.data.Weather
 import ru.geekbrains.androidwithkotlin.viewmodel.MainViewModel
-import kotlin.properties.Delegates.notNull
 
 private const val IS_RUSSIAN_KEY = "LIST_OF_RUSSIAN_KEY"
 
